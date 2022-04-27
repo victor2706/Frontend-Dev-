@@ -1,9 +1,8 @@
 import axios from "axios";
 
 const apiprova = axios.create({
-    baseURL: ' https://api.artic.edu/api/v1/artworks',
+    baseURL: 'https://api.artic.edu/api/v1/',
     headers: {
-        'Authorization': 'Bearer',
         'content-type': 'application/json;charset=utf-8',
     }
 })

@@ -9,7 +9,7 @@ const Menu = () => {
 <Navbar bg="dark" variant="dark" className="mb-3">
         <Container>
           <Navbar.Brand href="/Artworks">Museu do Frontend</Navbar.Brand>
-          <Navbar.Brand href="/obradearte">Obras de Arte</Navbar.Brand>
+          <Navbar.Brand href="/obradetalhes">Obras de Arte</Navbar.Brand>
           <Nav className="me-auto">
           <NavDropdown title="Tipos" className="show" id="basic-nav-dropdown">
           <Link className="dropdown-item" to="">Time Based Media</Link>
